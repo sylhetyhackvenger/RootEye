@@ -124,7 +124,7 @@ Workflow:
 3. Switch to any app you want to inspect.
 4. Return to Termux and press ENTER → full snapshot is rendered.
 5. Press ENTER again to re-scan, or Ctrl+C to exit cleanly.
-
+# Usage Technique: Launch Termux in floating-window mode (or minimize it), press ENTER to trigger a scan, then immediately tap the on-screen element you want to extract before the snapshot completes—capturing the UI state precisely at interaction time.
 Nothing you see is written to disk. When Termux closes, it's gone.
 
 ---
